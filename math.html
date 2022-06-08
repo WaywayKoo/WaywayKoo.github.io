@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            Modification
+        </title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head>
+    <body class="dark-bg">
+        <ul class="navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="math.html">Math</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li style="float:right"><a href="#about">About</a></li>
+        </ul>
+        <div class="full-block">
+            <h1 class="title-text">Math</h1>
+        </div>
+        <div class="body-block normal-text">
+            <h2>Addition</h2>
+            <input type="text" id="a01"> + <input type="text" id="a02"><br>
+            <button type="button" class="button" onclick="addition();">Calculate</button>
+            <div class="body-block output-text" id="out-1">
+            </div>
+        </div>
+        <div class="body-block normal-text">
+            <h2>Subtraction</h2>
+            <input type="text" id="b02"> + <input type="text" id="b02"><br>
+            <button type="button" class="button" onclick="subtraction();">Calculate</button>
+            <div class="body-block output-text" id="out-1">
+            </div>
+        </div>
+        <div class="body-block normal-text">
+            <h2>Multiplication</h2>
+        </div>
+        <div class="body-block normal-text">
+            <h2>Division</h2>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

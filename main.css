@@ -1,0 +1,92 @@
+body {
+    margin:0;
+    padding:0;
+}
+body.dark-bg{
+  background-color: #8e95ab;
+}
+
+/* block */
+.body-block{
+    background-color: #ededed;
+    margin: 40px 50px 40px 50px;
+    padding: 2.5% 4% 2.5% 4%;
+}
+
+.full-block{
+    background-color: rgb(116, 105, 105);
+    width: 100%;
+    padding-top: 5%;
+    height: 15%;
+}
+
+#intro-block{
+    background-image: url("index_bg1.jpg");
+    background-size: cover;
+    height: 25%;
+    text-align: center;
+}
+
+
+/* text */
+.normal-text{
+    font-family: "Hiragino Mincho ProN";
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+.output-text{
+    color:white;
+    background-color: #4f4f4f;
+    margin: 10px 0px;
+}
+.title-text{
+    font-family: "Arial Rounded MT Bold";
+    color: white;
+    text-align: center;
+}
+
+/* nav */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
